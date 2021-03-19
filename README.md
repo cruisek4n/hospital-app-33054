@@ -29,6 +29,7 @@
 | chest_id                      | integer    | null: false                       |
 | abdomen_id                    | integer    | null: false                       |
 | vio_id                        | integer    | null: false                       |
+| price                         | integer    | null: false                       |
 | user                          | references | null: false, foreign_key: true    |
 
 ### Association
